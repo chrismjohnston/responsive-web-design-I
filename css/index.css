@@ -297,16 +297,18 @@ ul {
 	flex-wrap: wrap;
 } */wn code or past solution for Great Idea Web Page CSS here! */
 
-@media(max-width:800px) {
 
+@media screen and (max-width: 800px) {
+    .top-section-right img{
+        display: none;
+    }
 }
-
 
 @media(max-width:500px) {
 
-    .container{
+   .container{
         max-width: 100%;
-    }
+    } 
 
     header {
         display: flex;
