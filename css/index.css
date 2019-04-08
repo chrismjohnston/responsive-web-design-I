@@ -96,9 +96,23 @@ header nav {
 	}
 }
 
+@media (max-width: 500px) {
+header nav {
+	flex-direction: column;
+	align-items: center;
+}
+}
+
 header nav a {
     text-decoration: none;
     color: #b0b0b0;
+}
+
+@media (max-width: 500px) {
+	header nav a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
 }
 
 header nav a:hover {
