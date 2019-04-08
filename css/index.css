@@ -89,6 +89,13 @@ header nav {
     display: flex;
 }
 
+@media (max-width: 800px) {
+	header nav {
+		width: 100%;
+		justify-content: space-around;
+	}
+}
+
 header nav a {
     text-decoration: none;
     color: #b0b0b0;
@@ -101,6 +108,13 @@ header nav a:hover {
 
 header .logo {
     margin: 28px 0 0 91px;
+}
+
+@media (max-width: 800px) {
+	header .logo {
+		margin: auto;
+		align-content: center;
+	}
 }
 
 /* Call To Action (CTA) Styles */
