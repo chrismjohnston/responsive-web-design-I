@@ -108,6 +108,7 @@ header nav {
 header nav {
 	flex-direction: column;
 	align-items: center;
+	margin-top: 2%;
 }
 }
 
@@ -120,6 +121,9 @@ header nav a {
 	header nav a {
 		padding-top: 10px;
 		padding-bottom: 10px;
+		width: 100%;
+		text-align: center;
+		border: 1px solid grey;
 		}
 }
 
@@ -203,12 +207,22 @@ header .logo {
 @media (max-width: 500px) {
 	.main-content .top-content {
 		flex-direction: column;
+		margin: 10% 2%;
 	}
 }
 
 .main-content .middle-img {
     display: block;
     margin: 30px auto;
+}
+
+@media (max-width: 500px) {
+	.main-content .middle-img {
+		
+		align-content: center;
+		width: 100%;
+		margin: 5% 2% 5% 2%;
+	}
 }
 
 .main-content .bottom-content {
@@ -218,6 +232,14 @@ header .logo {
 @media (max-width: 500px) {
 	.main-content .bottom-content {
 		flex-direction:  column;
+		margin: 5% 2%;
+
+	}
+}
+
+@media (max-width:500px) {
+	.text-content {
+		margin: 5% 0;
 	}
 }
 
