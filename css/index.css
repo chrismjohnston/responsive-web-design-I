@@ -68,6 +68,14 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
+@media (max-width: 500px) {
+	.container {
+		width: 500px;
+		margin: auto;
+	}
+}
+
+
 /* Header Styles */
 
 header {
@@ -190,6 +198,12 @@ header .logo {
 
 .main-content .top-content {
     display: flex;
+} 
+
+@media (max-width: 500px) {
+	.main-content .top-content {
+		flex-direction: column;
+	}
 }
 
 .main-content .middle-img {
