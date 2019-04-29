@@ -305,6 +305,13 @@ header .logo {
   display: flex;
 }
 
+@media (max-width: 800px) {
+  .main-content .top-content {
+    margin: auto;
+    width: 99%;
+  }
+}
+
 @media (max-width: 500px) {
   .main-content .top-content {
     flex-direction: column;
@@ -320,7 +327,7 @@ header .logo {
 @media (max-width: 800px) {
   .main-content .middle-img {
     align-content: center;
-    width: 100%;
+    width: 97%;
     margin: 5% 2% 5% 2%;
   }
 }
@@ -328,7 +335,7 @@ header .logo {
 @media (max-width: 500px) {
   .main-content .middle-img {
     align-content: center;
-    width: 100%;
+    max-width: 95%;
     margin: 5% 2% 5% 2%;
   }
 }
@@ -365,7 +372,9 @@ header .logo {
     margin-left: 1%;
   }
 
-  .contact p {margin-left: 1%;}
+  .contact p {
+    margin-left: 1%;
+  }
 }
 /* Footer Styles */
 
