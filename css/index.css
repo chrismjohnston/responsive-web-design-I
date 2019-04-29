@@ -68,6 +68,13 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
+@media (max-width: 800px) {
+	.container {
+		width: 800px;
+		margin: 20px;
+	}
+}
+
 @media (max-width: 500px) {
 	.container {
 		width: 500px;
@@ -100,7 +107,7 @@ header nav {
 @media (max-width: 800px) {
 	header nav {
 		width: 100%;
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 }
 
@@ -214,6 +221,16 @@ header .logo {
 .main-content .middle-img {
     display: block;
     margin: 30px auto;
+}
+
+
+@media (max-width: 800px) {
+	.main-content .middle-img {
+		
+		align-content: center;
+		width: 100%;
+		margin: 5% 2% 5% 2%;
+	}
 }
 
 @media (max-width: 500px) {
