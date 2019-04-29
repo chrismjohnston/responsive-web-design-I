@@ -201,6 +201,8 @@ header nav {
     flex-direction: column;
     align-items: center;
     margin-top: 2%;
+    width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -236,11 +238,11 @@ header .logo {
 }
 
 @media (max-width: 500px) {
-    header .logo {
-      margin: auto;
-      align-content: center;
-    }
+  header .logo {
+    margin: auto;
+    align-content: center;
   }
+}
 
 /* Call To Action (CTA) Styles */
 
@@ -358,6 +360,13 @@ header .logo {
   margin: 15px 0;
 }
 
+@media (max-width: 500px) {
+  .contact h4 {
+    margin-left: 1%;
+  }
+
+  .contact p {margin-left: 1%;}
+}
 /* Footer Styles */
 
 footer {
